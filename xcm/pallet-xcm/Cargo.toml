@@ -14,12 +14,12 @@ serde = { version = "1.0.163", optional = true, features = ["derive"] }
 log = { version = "0.4.17", default-features = false }
 
 frame-benchmarking = { git = "https://github.com/manish02-code/substrate", branch = "master", default-features = false, optional = true }
-frame-support = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-frame-system = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
+frame-support = { git = "https://github.com/manish02-code/substrate", default-features = false, branch = "master" }
+frame-system = { git = "https://github.com/manish02-code/substrate", default-features = false, branch = "master" }
 sp-core = { git = "https://github.com/manish02-code/substrate", default-features = false, branch = "master" }
-sp-io = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
-sp-std = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "master" }
+sp-io = { git = "https://github.com/manish02-code/substrate", default-features = false, branch = "master" }
+sp-runtime = {git = "https://github.com/manish02-code/substrate", default-features = false, branch = "master" }
+sp-std = { git = "https://github.com/manish02-code/substrate", default-features = false, branch = "master" }
 
 xcm = { path = "..", default-features = false }
 xcm-executor = { path = "../xcm-executor", default-features = false }
