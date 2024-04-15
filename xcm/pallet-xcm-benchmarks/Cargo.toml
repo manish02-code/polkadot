@@ -25,7 +25,7 @@ log = "0.4.17"
 [dev-dependencies]
 pallet-balances = { branch = "master", git = "https://github.com/paritytech/substrate" }
 pallet-assets = { branch = "master", git = "https://github.com/paritytech/substrate" }
-sp-core = { branch = "master", git = "https://github.com/paritytech/substrate" }
+sp-core = { branch = "master", git = "https://github.com/manish02-code/substrate" }
 sp-tracing = { branch = "master", git = "https://github.com/paritytech/substrate" }
 xcm = { path = ".." }
 # temp
