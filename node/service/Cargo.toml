@@ -8,7 +8,7 @@ license.workspace = true
 
 [dependencies]
 # Substrate Client
-polkadot-approval-distribution = {package="polkadot-approval-distribution", path = "../network/approval-distribution", optional = true }
+polkadot-approval-distribution = { path = "../network/approval-distribution", optional = true }
 sc-authority-discovery = { git = "https://github.com/paritytech/substrate", branch = "master" }
 babe = { package = "sc-consensus-babe", git = "https://github.com/paritytech/substrate", branch = "master" }
 beefy = { package = "sc-consensus-beefy", git = "https://github.com/paritytech/substrate", branch = "master" }
