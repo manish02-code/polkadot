@@ -8,6 +8,7 @@ license.workspace = true
 
 [dependencies]
 # Substrate Client
+polkadot-approval-distribution = { path = "../network/approval-distribution", optional = true }
 sc-authority-discovery = { git = "https://github.com/paritytech/substrate", branch = "master" }
 babe = { package = "sc-consensus-babe", git = "https://github.com/paritytech/substrate", branch = "master" }
 beefy = { package = "sc-consensus-beefy", git = "https://github.com/paritytech/substrate", branch = "master" }
@@ -118,7 +119,6 @@ westend-runtime = { path = "../../runtime/westend", optional = true }
 rococo-runtime = { path = "../../runtime/rococo", optional = true }
 
 # Polkadot Subsystems
-polkadot-approval-distribution = { path = "../network/approval-distribution", optional = true }
 polkadot-availability-bitfield-distribution = { path = "../network/bitfield-distribution", optional = true }
 polkadot-availability-distribution = { path = "../network/availability-distribution", optional = true }
 polkadot-availability-recovery = { path = "../network/availability-recovery", optional = true }
